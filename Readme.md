@@ -77,4 +77,4 @@ A real-time chat application built using WebSocket and Socket.IO. This applicati
     DOMPurify for sanitizing user input.
 
 ### Output -
-![Image](https://github.com/user-attachments/assets/e50f83e7-7be7-436d-8b1f-3aed1b1d4364)
+![Image](https://github.com/user-attachments/assets/90fbe154-1a6b-49cf-b987-68c9b21f2ce2)
