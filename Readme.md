@@ -1,5 +1,19 @@
 # Chat WebSocket Application
 
+COMPANY: CODTECH IT SOLUTIONS
+
+NAME: TABARAK ZAFAR
+
+INTERN ID: COD94278
+
+DOMAIN: FULL STACK WEB DEVELOPMENT
+
+DURATION: 6 WEEKS
+
+MENTOR: NEELA SANTOSH
+
+##Description 
+
 A real-time chat application built using WebSocket and Socket.IO. This application allows users to send and receive messages in real-time, as well as see when other users are typing.
 
 ## Features
@@ -61,3 +75,6 @@ A real-time chat application built using WebSocket and Socket.IO. This applicati
     Express for building the web server.
     Moment.js for date formatting.
     DOMPurify for sanitizing user input.
+
+### Output -
+![Image](https://github.com/user-attachments/assets/e50f83e7-7be7-436d-8b1f-3aed1b1d4364)
