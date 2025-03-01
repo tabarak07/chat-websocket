@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+/* Media Queries for Responsiveness */
+@media (max-width: 600px) {
+  .main {
+    width: 95%;
+  }
+
+  .message-left,
+  .message-right {
+    max-width: 85%;
+  }
+
+  .name {
+    font-size: 1rem;
+  }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Roboto', sans-serif; /* Changed font to Roboto */
+  background-color: #f0f4f8; /* Light, modern background */
+  color: #333; /* Darker text for better readability */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.title {
+  margin: 30px 0;
+  color: #2c3e50; /* Softer dark blue */
+  text-align: center;
+  font-weight: 700;
+  font-size: 2.2rem; /* Larger title */
+}
+
+.main {
+  border-radius: 15px;
+  overflow: hidden;
+  max-width: 90%;
+  width: 420px; /* Slightly wider */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Soft shadow */
+  background-color: #fff; /* White chat container */
+}
+
+.name {
+  display: flex;
+  font-size: 1.2rem;
+  font-weight: 500;
+  padding: 12px 20px;
+  color: #fff;
+  background-color: #3498db; /* Blue header */
+}
+
+.name > span {
+  color: #ecf0f1; /* Light color for span */
+}
+
+.name-input {
+  font-size: 1rem;
+  font-weight: 400;
+  color: #555;
+  flex-grow: 1;
+  border: none;
+  margin: 0px 15px;
+  outline: none;
+  background-color: #e8f0fe; /* Light blue input background */
+  padding: 8px;
+  border-radius: 5px;
+}
+
+.message-container {
+  display: flex;
+  flex-direction: column;
+  background-color: #f9f9f9; /* Lighter background */
+  width: 100%;
+  height: 450px; /* Increased height */
+  overflow-y: auto;
+  overflow-x: hidden;
+  padding: 15px;
+}
+
+.message-left,
+.message-right {
+  list-style: none;
+  padding: 12px 18px;
+  margin: 10px;
+  max-width: 75%;
+  font-size: 1rem;
+  word-wrap: break-word;
+  border-radius: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.08); /* Softer shadow */
+}
+
+.message-left {
+  align-self: flex-start;
+  background-color: #fff;
+  color: #333;
+}
+
+.message-right {
+  align-self: flex-end;
+  background-color: #3498db; /* Blue right messages */
+  color: #fff;
+}
+
+.message-left > p > span,
+.message-right > p > span {
+  display: block;
+  font-style: italic;
+  font-size: 0.8rem;
+  margin-top: 5px;
+  color: #aaa;
+}
+
+.feedback {
+  font-style: italic;
+  font-size: 0.9rem;
+  padding: 12px 20px;
+  color: #777;
+  text-align: center;
+}
+
+.message-form {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 10px;
+}
+
+.message-input {
+  flex-grow: 1;
+  height: 45px;
+  font-size: 0.95rem;
+  border: 1px solid #ddd;
+  outline: none;
+  padding: 0 15px;
+  background-color: #fff;
+  border-radius: 8px;
+  color: #555;
+}
+
+.send-button {
+  height: 45px;
+  font-size: 0.95rem;
+  border: none;
+  padding: 0px 20px;
+  outline: none;
+  background-color: #3498db; /* Blue button */
+  color: #fff;
+  cursor: pointer;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease;
+}
+
+.send-button:hover {
+  background-color: #2980b9; /* Darker blue on hover */
+}
+
+.v-divider {
+  height: 45px;
+  width: 1px;
+  background-color: #eee;
+  align-self: center;
+}
+
+.clients-total {
+  margin: 25px 0;
+  color: #777;
+  text-align: center;
+  font-size: 0.9rem;
+}
+
